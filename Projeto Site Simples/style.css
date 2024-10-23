@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #e887ed;
+    font-family: "Dancing Script", cursive;
+    align-items: center;
+    justify-content: center;
+    height: 80px;    
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 600px;
+    margin-bottom: 0px;    
+}
+
+.box-txt {
+    display: flex;
+    flex-flow: row wrap;
+    width: 40%;
+    height: 400px;    
+}
+
+.box-txt span {
+    text-transform: uppercase;
+    color: gray;
+    display: block;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.box-txt h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 80px;
+    color:#e887ed;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+
+.box-txt p {
+    color: gray;
+    font-size: 20px;
+}
+
+.box-btn {
+    background: #e887ed;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.box-btn:hover {
+    background: #dd45e6;
+    font-size: 22px;
+}
+
+.especialidades {
+    display: flex;
+    justify-content: center;
+}
+
+.box-item {
+    width: 30%;
+    height: 350px;
+    padding: 30px 20px;
+    background: #e887ed;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+h3 {
+    font-family: "DM Sans", sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.box-item p {
+    font-family: "DM Sans", sans-serif;
+    color: rgb(47, 43, 43);
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: #e887ed;
+    height: 100px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.whats {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

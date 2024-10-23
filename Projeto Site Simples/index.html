@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Clínica da Mulher</h1>
+    </header>
+    <section class="hero">
+        <div class="box-img">
+            <img id="doutora" src="img/doutora3.webp" alt="">
+        </div>
+        <div class="box-txt">
+            <span>Marque uma Consulta</span>
+            <h2>Vida Serena, Saúde Plena!</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae fuga ipsa excepturi, veniam culpa ratione molestiae fugiat quaerat beatae dolor, adipisci laborum saepe illo voluptates officia ut odit quia autem.</p>
+            <a href="#" class="box-btn">Marcar Consulta</a>
+        </div>
+    </section>
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidades 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis, quaerat corporis nulla pariatur magnam magni inventore veritatis laudantium velit libero laboriosam architecto eum possimus atque commodi ab, deleniti voluptates.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidades 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique vero esse culpa excepturi quaerat, perferendis voluptate cum voluptatibus nam totam deleniti commodi magni sit cupiditate! Aut libero debitis ipsum?</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidades 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur numquam similique perspiciatis, vel mollitia, deserunt fuga facere minima nemo hic nobis qui exercitationem at nulla nihil nisi ipsum, consequatur molestiae?</p>
+        </div>
+    </section>
+    <footer>
+        <p>2024 © Desenvolvido por e-St. Todos os direitos reservados.</p>
+    </footer>
+    <div class="whats">
+        <a target="_blank" href="https://w.app/8exMKI">
+            <img width="50" src="img/whatsapp.png" alt="whatsapp">
+        </a>        
+    </div>
+
+    <script>
+        //Pegar o elemento
+        const doutora = document.getElementById('doutora');
+
+        //Evento quando o mouse estiver por cima da imagem
+        doutora.addEventListener('mouseover', function(){
+            doutora.src = "img/doutora4.webp";        
+        });
+        //Evento quando o mouse estiver fora da imagem
+        doutora.addEventListener('mouseout', function(){
+            doutora.src = "img/doutora3.webp";
+        });
+    </script>
+</body>
+</html>
